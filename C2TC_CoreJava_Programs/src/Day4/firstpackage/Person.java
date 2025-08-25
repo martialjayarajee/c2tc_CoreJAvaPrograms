@@ -1,10 +1,11 @@
 ////Program to demonstrate private data members, Constructors and getter and setter methods 
 package Day4.firstpackage;
+
 public class Person {
 	private String personName;
 	private int personAge;
 	private String personCity;
-	
+
 	public String getPersonName() {
 		return personName;
 	}
@@ -32,13 +33,12 @@ public class Person {
 	public Person() {
 		System.out.println("Default Constructor");
 	}
-	
+
 	public Person(String personName, int personAge, String personCity) {
 		System.out.println("Parameterized Constructor");
 		this.personName = personName;
 		this.personAge = personAge;
 		this.personCity = personCity;
 	}
-	
-	
+
 }

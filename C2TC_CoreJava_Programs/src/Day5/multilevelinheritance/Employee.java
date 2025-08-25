@@ -6,8 +6,9 @@ import java.util.Date;
 public class Employee extends Person {
 	private String deptName;
 	private double baseSalary;
-	
-	public Employee() {}
+
+	public Employee() {
+	}
 
 	public Employee(String name, long contactNo, Date dateOfBirth, String deptName, double baseSalary) {
 		super(name, contactNo, dateOfBirth);
@@ -33,8 +34,7 @@ public class Employee extends Person {
 
 	@Override
 	public String toString() {
-		return "Employee ["+super.toString()+", deptName=" + deptName + ", baseSalary=" + baseSalary + "]";
+		return "Employee [" + super.toString() + ", deptName=" + deptName + ", baseSalary=" + baseSalary + "]";
 	}
 
-	
 }

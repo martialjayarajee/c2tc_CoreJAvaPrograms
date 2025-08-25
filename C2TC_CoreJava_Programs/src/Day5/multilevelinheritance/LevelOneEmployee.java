@@ -4,16 +4,18 @@ package Day5.multilevelinheritance;
 import java.util.Date;
 
 public class LevelOneEmployee extends Employee {
-    private int noOfShares;
-    private String authority;
-    
-    public LevelOneEmployee() {}
-    
-    public LevelOneEmployee(String name, long contactNo, Date dateOfBirth,String deptName, double baseSalary, int noOfShares, String authority) {
-    	super(name,contactNo,dateOfBirth,deptName, baseSalary);
-        this.noOfShares = noOfShares;
-        this.authority=authority;
-    }
+	private int noOfShares;
+	private String authority;
+
+	public LevelOneEmployee() {
+	}
+
+	public LevelOneEmployee(String name, long contactNo, Date dateOfBirth, String deptName, double baseSalary,
+			int noOfShares, String authority) {
+		super(name, contactNo, dateOfBirth, deptName, baseSalary);
+		this.noOfShares = noOfShares;
+		this.authority = authority;
+	}
 
 	public int getNoOfShares() {
 		return noOfShares;
@@ -33,6 +35,6 @@ public class LevelOneEmployee extends Employee {
 
 	@Override
 	public String toString() {
-		return "LevelOneEmployee ["+super.toString()+"noOfShares=" + noOfShares + ", authority=" + authority + "]";
-	}   
+		return "LevelOneEmployee [" + super.toString() + "noOfShares=" + noOfShares + ", authority=" + authority + "]";
+	}
 }

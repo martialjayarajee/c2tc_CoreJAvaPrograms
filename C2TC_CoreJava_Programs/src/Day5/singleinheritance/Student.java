@@ -11,7 +11,7 @@ public class Student extends Citizen {
 	}
 
 	public Student(String name, String aadharNo, String address, long phno, int rollNo, String collegeName) {
-		super(name, aadharNo, address, phno); //accessing parent class constructor
+		super(name, aadharNo, address, phno); // accessing parent class constructor
 		this.rollNo = rollNo;
 		this.collegeName = collegeName;
 	}
@@ -34,13 +34,10 @@ public class Student extends Citizen {
 
 	@Override
 	public String toString() {
-		return "Student [rollNo=" + rollNo + ", collegeName=" + collegeName + ", Name=" + getName()
-				+ ", AadharNo=" + getAadharNo() + ", Address=" + getAddress() + ", Phno=" + getPhno()
-				
+		return "Student [rollNo=" + rollNo + ", collegeName=" + collegeName + ", Name=" + getName() + ", AadharNo="
+				+ getAadharNo() + ", Address=" + getAddress() + ", Phno=" + getPhno()
+
 				+ "]";
 	}
 
-	
-
-	
 }

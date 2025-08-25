@@ -4,25 +4,25 @@ public class TypeCastinfDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		byte b = 10; 
-		int i = b; //4 bytes
+		byte b = 10;
+		int i = b; // 4 bytes
 		System.out.println(i);
-		
-		float f = 22.14f;	// 4 bytes
-		double d = f;		// 8 bytes
+
+		float f = 22.14f; // 4 bytes
+		double d = f; // 8 bytes
 		System.out.println(d);
-		
-		char ch = 'A';	// 2 bytes
-		int i3 = ch;	// 4 bytes
+
+		char ch = 'A'; // 2 bytes
+		int i3 = ch; // 4 bytes
 		System.out.println(i3);
-		
+
 		char var1 = '\u00A7';
 		int i4 = var1;
 		System.out.println(i4);
-		
+
 		// narrowing/explicit type casting
 
-		double f1 = 10.52f;	
+		double f1 = 10.52f;
 		long l = (long) f1;
 		System.out.println(l);
 
@@ -36,7 +36,7 @@ public class TypeCastinfDemo {
 
 		byte b1 = 90;
 		char ch1 = (char) b1;
-		System.out.println(ch1);	
+		System.out.println(ch1);
 
 	}
 

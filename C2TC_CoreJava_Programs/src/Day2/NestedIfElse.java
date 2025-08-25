@@ -1,8 +1,8 @@
 package Day2;
 
 public class NestedIfElse {
-    public static void main(String[] args) {
-		int a=32, b=16, c=57;
+	public static void main(String[] args) {
+		int a = 32, b = 16, c = 57;
 		System.out.println("The largest number is");
 		if (a > b) {
 			if (a > c)
@@ -14,6 +14,6 @@ public class NestedIfElse {
 				System.out.println(c);
 			else
 				System.out.println(b);
-}
+		}
 	}
 }

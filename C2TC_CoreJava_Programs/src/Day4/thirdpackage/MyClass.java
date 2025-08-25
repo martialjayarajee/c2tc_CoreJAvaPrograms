@@ -2,24 +2,22 @@
 package Day4.thirdpackage;
 
 public class MyClass {
-	private static MyClass obj=new MyClass();
+	private static MyClass obj = new MyClass();
 	private int id;
-	
-	public int getId()
-	{
+
+	public int getId() {
 		return id;
 	}
-	
-	public void setId(int id)
-	{
-		this.id=id;
+
+	public void setId(int id) {
+		this.id = id;
 	}
-	
+
 	private MyClass() {
-		System.out.println("MyClass object created");		
+		System.out.println("MyClass object created");
 	}
-	
-	public static MyClass getObject() //factory method
+
+	public static MyClass getObject() // factory method
 	{
 		return obj;
 	}
@@ -28,5 +26,5 @@ public class MyClass {
 	public String toString() {
 		return "MyClass [id=" + id + "]";
 	}
-	
+
 }

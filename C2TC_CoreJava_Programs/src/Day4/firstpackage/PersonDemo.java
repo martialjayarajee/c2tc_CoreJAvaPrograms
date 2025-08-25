@@ -1,5 +1,6 @@
 //Program to demonstrate creating objects
 package Day4.firstpackage;
+
 import java.util.Scanner;
 
 public class PersonDemo {

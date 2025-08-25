@@ -7,8 +7,8 @@ public class Person {
 
 	public Person() {
 		System.out.println("Person class default constructor");
-		name="Amit";
-		city="Pune";
+		name = "Amit";
+		city = "Pune";
 	}
 
 	public Person(String name, String city) {
@@ -36,7 +36,5 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", city=" + city + "]";
 	}
-
-	
 
 }

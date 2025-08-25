@@ -6,15 +6,13 @@ public class Citizen {
 	private String aadharNo;
 	private String address;
 	private long phno;
-	
-	
 
 	public Citizen() {
 		System.out.println("Citizen object created");
 	}
 
 	public Citizen(String name, String aadharNo, String address, long phno) {
-		
+
 		this.name = name;
 		this.aadharNo = aadharNo;
 		this.address = address;
